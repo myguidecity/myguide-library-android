@@ -36,7 +36,7 @@ Show information to user:
 
 
 	MyGuide.startCity(Context context,"<avaliableCityId>"); - shows the selected city information.
-	MyGuide.startCity(Context context,"<avaliableCityId>", "Title"); - shows the selected city information with the customizable title on top.
+	MyGuide.startCity(Context context,"<avaliableCityId>", "Lucerne"); - shows the selected city information with the customizable title on top.
 <img src="https://user-images.githubusercontent.com/91147646/134477195-67350325-d202-493b-bb9a-b5a309c8c3e5.png" width="400">
 
 	MyGuide.startPartner(Context context,"<avaliablePartnerId>"); - shows the selected partner information.

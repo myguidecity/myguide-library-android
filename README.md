@@ -42,4 +42,4 @@ Show information to user:
 	MyGuide.startPartner(Context context,"<avaliablePartnerId>"); - shows the selected partner information.
 <img src="https://user-images.githubusercontent.com/91147646/134477286-ba760d58-aea5-4110-afd7-08fa9c312550.png" width="400">
 	MyGuide.startPartner(Context context,"<avaliablePartnerId>", "Title"); - shows the selected partner information with the customizable title on top.
-List of available city and partner ids can be found at myguide.city.
+List of avaliable city and partner ids can be found at myguide.city.

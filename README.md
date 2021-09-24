@@ -1,4 +1,4 @@
-MyGuide Library provides necessary information about the desired city or selected organization and allow users to access personal services of the organization.
+myguide.city Library provides necessary information about the desired city or selected partner and allows users to access personal services of the partner.
  
  Usage:
  Get library package "myguide-library.aar" and place it into the lib folder of your Android Studio project
@@ -15,7 +15,7 @@ MyGuide Library provides necessary information about the desired city or selecte
 	
  }
  
- Get the APIkey to get all the benefits from the library usage. (Visit myguide.city for mor information about APIkey) 
+ Get the APIkey to get all the benefits from the library usage. (Contact myguide.city for more information about APIkey) 
  
  Set the APIkey in your application:
 
@@ -36,10 +36,10 @@ Show information to user:
 
 
 	MyGuide.startCity(Context context,"<avaliableCityId>"); - shows the selected city information.
-	MyGuide.startCity(Context context,"<avaliableCityId>", "Lucerne"); - shows the selected city information with the customizable title on top.
+	MyGuide.startCity(Context context,"<avaliableCityId>", "lucerne"); - shows the selected city information with the customizable title on top.
 <img src="https://user-images.githubusercontent.com/91147646/134477195-67350325-d202-493b-bb9a-b5a309c8c3e5.png" width="400">
 
 	MyGuide.startPartner(Context context,"<avaliablePartnerId>"); - shows the selected partner information.
 <img src="https://user-images.githubusercontent.com/91147646/134477286-ba760d58-aea5-4110-afd7-08fa9c312550.png" width="400">
-	MyGuide.startPartner(Context context,"<avaliablePartnerId>", "Title"); - shows the selected partner information with the customizable title on top.
+	MyGuide.startPartner(Context context,"<avaliablePartnerId>", "title"); - shows the selected partner information with the customizable title on top.
 List of avaliable city and partner ids can be found at myguide.city.
